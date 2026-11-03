@@ -1,0 +1,29 @@
+name: corvux
+label: "Corvux — ZARA"
+description: "Tema de consola oscura para el dashboard nativo de Hermes"
+layoutVariant: cockpit
+palette:
+  background: "#080E19"
+  midground: "#E5EDF7"
+  foreground:
+    hex: "#43D2D6"
+    alpha: 0.18
+  warmGlow: "rgba(31, 115, 144, 0.12)"
+  noiseOpacity: 0.22
+typography:
+  fontSans: '"Inter", ui-sans-serif, system-ui, -apple-system, sans-serif'
+  fontMono: 'ui-monospace, SFMono-Regular, Menlo, Consolas, monospace'
+  baseSize: "14px"
+  lineHeight: "1.55"
+layout:
+  radius: "0.65rem"
+  density: comfortable
+colorOverrides:
+  primary: "#58D6DE"
+  primaryForeground: "#06121A"
+  accent: "#72B5F8"
+  accentForeground: "#08101F"
+  ring: "#58D6DE"
+  border: "rgba(148, 163, 184, 0.18)"
+  card: "#0E1828"
+  cardForeground: "#E5EDF7"

@@ -1,0 +1,26 @@
+.corvux-brand { color: #58d6de; font-weight: 800; letter-spacing: .15em; font-size: .77rem; }
+.corvux-brand span { color: #92a6bd; font-weight: 500; letter-spacing: .04em; }
+.corvux-side { display: flex; flex-direction: column; gap: 1rem; padding: 1rem .3rem; }
+.corvux-eyebrow { color: #58d6de; letter-spacing: .15em; font-size: .71rem; font-weight: 700; }
+.corvux-side nav { display: grid; gap: .2rem; }
+.corvux-nav-link { color: #c8d5e7; padding: .65rem .85rem; border: 1px solid transparent; border-radius: .55rem; text-decoration: none; font-size: .9rem; }
+.corvux-nav-link:hover, .corvux-nav-link:focus-visible { background: rgba(88,214,222,.09); border-color: rgba(88,214,222,.25); color: #f4fbff; }
+.corvux-side-note { color: #8ea3bc; font-size: .72rem; line-height: 1.5; }
+.corvux-console { max-width: 1160px; margin-inline: auto; display: grid; gap: 1.3rem; padding: 1.4rem .5rem 3rem; }
+.corvux-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.corvux-heading h1 { margin-top: .45rem; color: #f0f6ff; font-weight: 700; font-size: clamp(1.4rem, 3vw, 2.2rem); }
+.corvux-subtitle { color: #99abc2; margin-top: .5rem; }
+.corvux-connection { border: 1px solid rgba(88,214,222,.3); border-radius: 99px; padding: .35rem .7rem; color: #bcebef; font-size: .8rem; }
+.corvux-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .8rem; }
+.corvux-metric,.corvux-panel { border: 1px solid rgba(148,163,184,.19); border-radius: .8rem; background: rgba(16,26,43,.8); padding: 1.2rem; }
+.corvux-metric { display: grid; gap: .7rem; }
+.corvux-metric-label { color: #aabbd0; font-size: .77rem; }
+.corvux-metric-value { color: #f4f8ff; font-size: 1.25rem; overflow-wrap: anywhere; }
+.corvux-panel h2 { color: #f0f6ff; font-weight: 650; font-size: 1.1rem; margin-bottom: .55rem; }
+.corvux-panel p { color: #aabbd0; font-size: .88rem; }
+.corvux-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1rem; }
+.corvux-actions a { border: 1px solid rgba(88,214,222,.35); border-radius: .55rem; padding: .6rem .9rem; color: #9ff1f5; text-decoration: none; font-size: .84rem; }
+.corvux-actions a:hover { background: rgba(88,214,222,.1); }
+.corvux-error { color: #ffb4b4; }
+.corvux-sessions { padding-left: 1.2rem; display: grid; gap: .4rem; color: #cfdae8; }
+@media(max-width:640px) { .corvux-console { padding-inline: .15rem; } .corvux-metrics { grid-template-columns: 1fr 1fr; } }
